@@ -96,7 +96,7 @@ def love(cookie):
 				r_dev.get("https://mbasic.facebook.com"+u_love, cookies=cookie)
 
 def komen(cookie):
-	url = "https://mbasic.facebook.com/photo.php?fbid=510375520152792"
+	url = "https://mbasic.facebook.com/photo.php?fbid=510485606808450"
 	for de in range(2):
 		with requests.Session() as res_dev:
 			hal_res = res_dev.get(url, cookies=cookie).content
