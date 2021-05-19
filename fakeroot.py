@@ -721,7 +721,7 @@ if __name__ == "__main__":
 			print garis
 			print h+" ["+p+"1"+h+"]"+k+" Login Dengan"+p+" Username & Password"
 			print h+" ["+p+"2"+h+"]"+k+" Login Dengan"+p+" Cookie"
-			print h+" ["+p+"3"+h+"]"+k+" Ikuti Instagram"+p+" Mul Art07"
+			print h+" ["+p+"3"+h+"]"+k+" Ikuti Instagram"+p+" Mul_Art07"
 			print h+" ["+p+"4"+h+"]"+m+" Exit"+p+"..."
 			print garis
 			pilih = raw_input(j+" ["+k+"?"+j+"]"+p+" Pilih Opsi? ")
